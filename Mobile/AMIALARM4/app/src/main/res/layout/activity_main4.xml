@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2B2B2B"
+    android:paddingTop="10dp"
+    android:textAlignment="center"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="397dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="80dp"
+                    android:text="AmiAlarmas"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@android:drawable/ic_dialog_email"
+                    android:ems="10"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:paddingTop="20dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#F1EEEE" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+
+        </TableLayout>
+
+        <Space
+            android:layout_width="411dp"
+            android:layout_height="55dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="55dp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="326dp"
+                android:layout_height="match_parent"
+                android:gravity="center"/>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="144dp"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/recuperar"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A259FF"
+                    android:text="Recuperar"
+                    app:cornerRadius="15dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="417dp"
+            app:srcCompat="@drawable/image" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
