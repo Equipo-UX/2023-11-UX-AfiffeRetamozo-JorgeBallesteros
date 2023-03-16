@@ -1,1 +1,1 @@
-Este es el espacio para la maqueta Mobile
+La aplicación fue diseñada para correrla en un emulador del dispositivo Pixel 3a con Adroid API 33
