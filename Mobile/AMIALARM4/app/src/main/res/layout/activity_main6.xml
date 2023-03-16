@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#2B2B2B"
+    android:paddingTop="60dp"
+    android:textAlignment="center"
+    tools:context=".MainActivity6">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="20dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="397dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingTop="20dp"
+                    android:text="AlarmaAmigos"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <Space
+                    android:layout_width="135dp"
+                    android:layout_height="18dp" />
+
+                <Button
+                    android:id="@+id/Agregaralarp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:backgroundTint="#A259FF"
+                    android:text="+ Agregar"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textSize="10sp"
+                    app:cornerRadius="15dp"
+                    app:strokeColor="#A259FF"
+                    app:strokeWidth="2dp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center" />
+
+        </TableLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="261dp"
+            android:layout_height="95dp"
+            app:cardCornerRadius="15dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true"
+            app:contentPaddingBottom="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="326dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="53dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/persona" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Juan perez"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="66dp"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Juan-perez@gmail.com"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/quitarp2"
+                        android:layout_width="11dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="#A259FF"
+                        android:gravity="right"
+                        android:text="Quitar"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="8dp"
+                        app:cornerRadius="15dp"
+                        app:icon="?attr/editTextBackground"
+                        app:iconGravity="start" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="261dp"
+            android:layout_height="101dp"
+            app:cardCornerRadius="15dp"
+            app:cardUseCompatPadding="true"
+            app:contentPaddingBottom="10dp">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="326dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="53dp"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/persona" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="10dp"
+                        android:text="Carlos Jimenez"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="66dp"
+                        android:layout_height="20dp" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="carlosj200@gmail.com"
+                        android:textColor="#000000"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="144dp"
+                    android:gravity="center">
+
+                    <Space
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/quitarp3"
+                        android:layout_width="76dp"
+                        android:layout_height="30dp"
+                        android:backgroundTint="#A259FF"
+                        android:gravity="right"
+                        android:text="Quitar"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textSize="8dp"
+                        app:cornerRadius="15dp"
+                        app:icon="?attr/editTextBackground"
+                        app:iconGravity="start" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="360dp"
+            app:srcCompat="@drawable/capturareloj" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <Button
+                    android:id="@+id/volverp2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#A259FF"
+                    android:text="Volver"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    app:cornerRadius="15dp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
